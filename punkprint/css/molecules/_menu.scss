@@ -1,0 +1,44 @@
+/*Menu*/
+
+.molecule_menu{
+	@include no-text-select;
+	width: 160px;
+	height: auto;
+	transition: all 0.9s ease-out;
+	-webkit-transition: all 0.9s ease-out;
+
+	background-color: white;
+	overflow:hidden;
+	display: block;
+
+	.container{
+		font-size: 0;  /* fix gaps between items */
+		border: 0;
+		height: 0;
+		width: 100%;
+		margin-top: 0px;
+		/*max-height: 0px;*/
+		overflow: hidden;
+		background-color: white;
+		color: $color-primary--dark;
+		transition: height 0.3s ease-in;
+		-webkit-transition: height 0.3s ease-in;
+	}
+
+	.atom_menu-head{
+		width: 100%;
+	}
+}
+
+.molecule_menu:hover{
+	.atom_menu-head{
+		background-color: $color_primary--light;
+		color: white;
+	}
+	.container{
+		.atom_menu-item{
+			background-color: $color_primary--lightest;
+			color: white;
+		}
+	}
+}

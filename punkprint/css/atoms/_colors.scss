@@ -1,0 +1,19 @@
+$color_primary: #8397B1;
+$color_primary--transparent: rgba(65, 106, 159, 0.28);
+$color_primary--dark: darken($color_primary, 10%);
+$color_primary--darkest: darken($color_primary, 40%);
+$color_primary--light: lighten($color_primary, 10%);
+$color_primary--lightest: lighten($color_primary, 25%);
+
+$color_secondary: #9BB967;
+$color_secondary--dark: darken($color_secondary, 10%);
+$color_secondary--darkest: darken($color_secondary, 20%);
+$color_secondary--light: lighten($color_secondary, 10%);
+$color_secondary--lightest: lighten($color_secondary, 20%);
+
+$color_heading-1: #444;
+$color_heading-2: #333;
+$color_heading-3: #333;
+$color_paragraph: #222;
+$color_label: #222;
+$color_ul: #222;

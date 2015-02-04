@@ -1,0 +1,91 @@
+/*Button, <button>*/
+
+.atom_button{
+	width: 120px;
+	box-sizing: border-box;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	word-wrap: break-word;
+
+	background-color: #fff;
+	border: #444 1px solid;
+	border-radius: 7px;
+	color: #222;
+	font-family: sans-serif;
+	font-size: 1.0rem;
+	text-decoration: none;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+}
+
+.atom_button:hover{
+	cursor: pointer;
+	transition: border-color 0.2s, background-color 0.2s;
+	-webkit-transition: border-color 0.2s, background-color 0.2s;
+	background-color: #444;
+	color: #fff;
+}
+
+.atom_button:active{
+	transition: border-color 0.0s, background-color 0.0s;
+	-webkit-transition: border-color 0.0s, background-color 0.0s;
+	background-color: #222;
+	border-color: #222;
+	color: #fff;
+}
+
+.atom_button:focus{
+	outline: 0;
+}
+
+/*Button--primary, <button>*/
+.atom_button--primary{
+	@extend .atom_button;
+	font: $font-button;
+	background-color: #fff;
+	border: $color_primary 1px solid;
+	color: $color_primary--dark;
+}
+
+.atom_button--primary:hover{
+	background-color: $color_primary;
+	color: #fff;
+}
+
+.atom_button--primary:active{
+	background-color: $color_primary--dark;
+	border-color: $color_primary--dark;
+}
+
+.atom_button--primary--disabled{
+	@extend .atom_button--primary;
+	color: white;
+	background-color: $color_primary--light;
+}
+
+.atom_button--primary--disabled:hover{
+	color: white;
+	background-color: $color_primary;
+}
+
+/*Button--secondary, <button>*/
+
+.atom_button--secondary{
+	@extend .atom_button;
+	font: $font-button;
+	background-color: #fff;
+	border: $color_secondary 1px solid;
+	color: $color_secondary--dark;
+}
+
+.atom_button--secondary:hover{
+	background-color: $color_secondary;
+	color: #fff;
+}
+
+.atom_button--secondary:active{
+	background-color: $color_secondary--dark;
+	border-color: $color_secondary--dark;
+}

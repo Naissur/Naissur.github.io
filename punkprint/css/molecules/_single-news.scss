@@ -1,0 +1,36 @@
+.molecule_single-news:last-child{
+	border-bottom: 0;
+} // last news don't get border
+
+.molecule_single-news{
+	padding-bottom: 60px;
+	margin-bottom: 40px;
+	padding-top: 10px;
+	border-bottom: $color_primary--light 1px solid;
+	overflow: hidden;
+
+	.atom_heading-2{
+		margin-bottom: 20px;
+	}
+
+	.atom_img{
+		max-width: 280px;
+		width:auto;
+		height:auto;
+		float:left;
+		margin: 10px;
+	}
+
+	.atom_button{
+		margin-top: 30px;
+		margin-left: 10px;
+		clear: left;
+		float:left;
+		width: 150px;
+	}
+
+	.atom_paragraph{
+		margin-left: 320px;
+		padding-top: 10px;
+	}
+}

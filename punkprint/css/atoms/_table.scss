@@ -1,0 +1,33 @@
+.atom_table{
+	@extend .atom_paragraph;
+	width: 100%;
+	border-collapse: collapse;
+	/*border: $color_primary--light 1px solid;*/
+	border: 0;
+	font: $font_table;
+
+	.atom_table__head{
+		font: $font_table__head;
+		border-bottom: $color_primary--lightest 1px solid;
+	}
+
+	th{
+		font: $font_table__head;
+		padding: 4px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+
+	td{
+		font: $font_table;
+		font-weight: 300;
+		padding: 4px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+
+
+	.atom_table__done{
+		color: $color_secondary--dark;
+	}
+}

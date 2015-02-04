@@ -1,0 +1,23 @@
+/*Inputs, <input>*/
+
+.atom_input{
+	width: 120px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+
+	border: $color_primary 1px solid;
+	font: $font_input;
+	font-size: 1.0rem;
+	color: $color_primary--dark;
+}
+
+.atom_input:focus{
+	outline: 0;
+}
+
+.atom_input:input-placeholder{
+	color: $color_primary;
+}

@@ -1,0 +1,16 @@
+.organism_offers{
+	padding: 20px;
+
+
+	.organism_navbar{
+		float: left;
+		height: 700px;
+	}
+
+	.molecule_single-offer{
+		max-width: 560px;
+		position: absolute;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+}

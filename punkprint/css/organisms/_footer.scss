@@ -1,0 +1,15 @@
+.organism_footer{
+	width: 100%;
+	height: 100px;
+	clear: both;
+
+	background-color: $color-primary--transparent;
+
+	.atom_paragraph{
+		padding-top: 38px;
+		width: 100%;
+		text-align: center;
+		color: white;
+		text-shadow: rgba(0,0,0,0.7) 1px 1px 3px;
+	}
+}

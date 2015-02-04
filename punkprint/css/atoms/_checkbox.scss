@@ -1,0 +1,10 @@
+.atom_checkbox {
+	width: 18px;	
+	height: 18px;
+	margin: 5px 5px;
+	position: relative;
+}
+
+.atom_checkbox + label{
+	margin-top: 2px;
+}

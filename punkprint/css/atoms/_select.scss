@@ -1,0 +1,15 @@
+.atom_select{
+	@extend .atom_paragraph;
+	border: $color_primary--light 1px solid;
+	padding: 5px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	background-color: white;
+	color: $color_primary--dark;
+	font: $font_select;
+
+	option:hover{
+		color: white;
+		background-color: $color_primary;
+	}
+}

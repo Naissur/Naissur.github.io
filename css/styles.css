@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'sansationregular';
+    src: url('fonts/sansation/sansation-regular.eot');
+    src: url('fonts/sansation/sansation-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sansation/sansation-regular.woff2') format('woff2'),
+         url('fonts/sansation/sansation-regular.woff') format('woff'),
+         url('fonts/sansation/sansation-regular.ttf') format('truetype'),
+         url('fonts/sansation/sansation-regular.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sansation_lightlight';
+    src: url('fonts/sansation/sansation-light.eot');
+    src: url('fonts/sansation/sansation-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sansation/sansation-light.woff2') format('woff2'),
+         url('fonts/sansation/sansation-light.woff') format('woff'),
+         url('fonts/sansation/sansation-light.ttf') format('truetype'),
+         url('fonts/sansation/sansation-light.svg#sansation_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.clearfix{
+	clear: both;
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+}
+
+body{
+	background: url("../res/pattern.png");
+}
+
+h1{
+	padding-top: 17px;
+	padding-bottom: 21px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+	background-color: #d45c62;
+	color: #6D2B2E;
+	text-shadow: 1px 1px #FF898F;
+
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+h2{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+
+	background-color: #93b0a0;
+	color: white;
+
+	font-size: 2.5rem;
+	text-transform: uppercase;
+}
+
+p{
+	margin: auto;
+	margin-top: 60px;
+	max-width: 660px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+	font-size: 1.9rem;
+}
+
+.page-wrapper{
+	margin:auto;
+	margin-top: 10px;
+	max-width: 1100px;
+
+	background-color: #e9eac0;
+	box-shadow: #000 0px 12px 40px;
+
+	font-family: 'sansation_lightlight', 'Play', sans-serif;
+	font-weight: 700;
+	color: rgba(0,0,0,0.8);
+}
+
+.intro{
+	padding-top: 10px;
+}
+
+.skills{
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.works{
+	margin-bottom: 80px;
+	padding-bottom: 50px;
+}
+
+.works > .container{
+	margin-top: 50px;
+	perspective: 1000px;
+	width: 940px;
+	margin: auto;
+}
+
+.works__work{
+	position: relative;
+	width: 410px;
+	float: left;
+
+	cursor: pointer;
+
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+	transform-origin: left center;
+	transition: all 0.2s;
+}
+
+.works__work:hover{
+	box-shadow: rgba(0,0,0,0.3) 8px 2px  14px;
+	transform: rotate3d(0,1,0, -2deg);
+}
+
+.works__work:hover > img{
+	-webkit-filter: grayscale(0);
+}
+
+.works__work > img{
+	max-width: 100%;
+	max-height: 100%;
+	-webkit-filter: grayscale(0.8);
+	transition: -webkit-filter 0.4s, transform 0.2s;
+}
+
+@media screen and (max-width: 1280px){
+	.page-wrapper{
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 1060px){
+	.works > .container{
+		width: 100%;
+	}
+	.works__work{
+		float: none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+}

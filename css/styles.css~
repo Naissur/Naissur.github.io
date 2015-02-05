@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Play:400,700|Open+Sans:400,300,600&subset=latin,cyrillic);
+
+body, html{
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+}
+
+h1{
+	padding-top: 17px;
+	padding-bottom: 21px;
+
+	background-color: #d45c62;
+
+	font-size: 4.5rem;
+	font-weight: 500;
+}
+
+h2{
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+
+	background-color: #93b0a0;
+
+	font-size: 3.0rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+p{
+	margin: auto;
+	width: 720px;
+
+	font-size: 2.0rem;
+}
+
+.page-wrapper{
+	margin-top: 30px;
+	margin-right: 2%;
+	margin-left: 2%;
+
+	background-color: #e9eac0;
+
+	font-family: 'Play';
+	color: white;
+}
+
+.intro{
+	padding-top: 30px;
+}
+
+.skills{
+	margin-top: 130px;
+	margin-bottom: 150px;
+}
+
+.works{
+	height: 300px;
+}

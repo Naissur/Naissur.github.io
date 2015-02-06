@@ -113,8 +113,6 @@ p{
 .works{
 	margin-bottom: 80px;
 	padding-bottom: 50px;
-
-	transform-origin: top center;
 }
 
 .works > .container{
@@ -148,8 +146,10 @@ p{
 	max-width: 100%;
 	-webkit-filter: grayscale(0.8);
 	box-shadow: rgba(0,0,0,0.0) 8px 2px  14px;
-	transition: -webkit-filter 0.4s, box-shadow 0.2s, transform 0.2s;
+	transition: all 0.2s, -webkit-filter 0.4s;
 	transform-origin: left center;
+	-moz-transform-origin: left center;
+	-webkit-transform-origin: left center;
 }
 
 .works__work:hover{
@@ -158,6 +158,8 @@ p{
 .works__work:hover > img{
 	box-shadow: rgba(0,0,0,0.3) 8px 2px  14px;
 	transform: rotate3d(0,1,0, -4deg);
+	-moz-transform: rotate3d(0,1,0, -4deg);
+	-webkit-transform: rotate3d(0,1,0, -4deg);
 	-webkit-filter: grayscale(0);
 }
 

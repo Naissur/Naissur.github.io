@@ -140,9 +140,9 @@ p{
 
 .works__work:hover > img{
 	box-shadow: rgba(0,0,0,0.3) 6px 2px  14px;
-	transform: rotate3d(0,1,0, -4deg);
-	-moz-transform: rotate3d(0,1,0, -4deg);
-	-webkit-transform: rotate3d(0,1,0, -4deg);
+	transform: rotate3d(0,1,0, -8deg);
+	-moz-transform: rotate3d(0,1,0, -8deg);
+	-webkit-transform: rotate3d(0,1,0, -8deg);
 	-webkit-filter: grayscale(0);
 }
 

@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	text-align: center;
+	color: white;
+}
+
+.page-wrapper{
+	padding: 20px;
+	margin: auto;
+	margin-top: 20px;
+	display: block;
+
+	max-width: 700px;
+
+	background-color: #D79D2D;
+
+	.title{
+		margin-top: 0px;
+		margin-bottom: 20px;
+
+	.person{
+		width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+		
+		.person__avatar{
+			display: inline-block;
+			border-radius: 50%;
+		}
+		.person__name{
+			width: auto;
+			display: inline-block;
+		}
+		.person__phone{
+			width: auto;
+			display: inline-block;
+		}
+	}
+
+	}
+
+}

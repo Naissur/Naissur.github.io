@@ -380,15 +380,14 @@
     font-size: 0;
     /* fix gaps between items */
     border: 0;
-    height: 0;
     width: 100%;
     margin-top: 0px;
     /*max-height: 0px;*/
     overflow: hidden;
     background-color: white;
     color: #647d9d;
-    transition: height 0.3s ease-in;
-    -webkit-transition: height 0.3s ease-in; }
+    /*transition: height 0.3s ease-in;
+    -webkit-transition: height 0.3s ease-in;*/ }
   .molecule_menu .atom_menu-head {
     width: 100%; }
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title></title>
+		<title>Identities</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,20 @@
 			<br>
 			<button class="fetch">Get!</button>
 			<br>
-			<div class="person-container"></div>
+
+
+			<div class="person-container">
+			</div>
+			<div class="template" id="person-template">
+				<div class="person">
+					<img class="person__avatar" src="{{avatarUrl}}">
+					<div class="person__info">
+						<h2 class="person__name">{{name}}</h2>
+						<p class="person__phone">{{phone}}</p>
+					</div>
+				</div>
+			</div>
+
 			<div class="loader">Loading</div>
 		</div>
 
@@ -26,7 +39,7 @@
 		<script type="text/javascript" src="scripts/main.js"></script>
 
 		<div class="footer">
-			<p>Made with https://randomuser.me/ api for random user data.</p>
+			<p>Made using https://randomuser.me/ api for random user data.</p>
 		</div>
 	</body>
 </html>

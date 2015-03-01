@@ -23,15 +23,15 @@ $(document).ready(function(){
 				$.each(response.results, function(i, val){
 					console.log(val.user.name.first+' '+val.user.name.last+' '+val.user.phone);
 
-					var template = ""+
-						'<div class="person">'+
-							'<img class="person__avatar" src="'+val.user.picture.medium+'">'+
-							'<div class="person__info">'+
-								'<h2 class="person__name">'+val.user.name.first+' '+val.user.name.last+'</h2>'+
-								'<p class="person__phone">'+val.user.phone+'</p>'+
-							'</div>'+
-						'</div>';
-					$container.append(template);
+					var template = $('#person-template').html();
+					var person = {
+						avatarUrl: val.user.picture.medium,
+						name: val.user.name.first+' '+val.user.name.last,
+						phone: val.user.phone
+					}
+
+					var personHtml = Mustache.render(template, person);
+					$container.append(personHtml);
 				});
 				$container.slideDown(300);
 			}

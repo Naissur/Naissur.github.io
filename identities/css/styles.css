@@ -3,6 +3,9 @@
   margin: 0;
   font-family: 'Roboto', sans-serif; }
 
+.template {
+  display: none; }
+
 body {
   text-align: center;
   color: white;

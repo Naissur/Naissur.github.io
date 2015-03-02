@@ -110,6 +110,22 @@ button{
 	.loader{
 		display: none;
 		@extend h3;
+		-webkit-animation: loading 0.7s infinite; /* Chrome, Safari, Opera */
+		  animation: loading 0.7s infinite;
+	}
+
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes loading {
+		0% {color: rgba(255,255,255,1);}
+		50% {color: rgba(255,255,255,0.2);}
+		100% {color: rgba(255,255,255,1);}
+	}
+
+	/* Standard syntax */
+	@keyframes loading {
+		0% {color: rgba(255,255,255,1);}
+		50% {color: rgba(255,255,255,0.2);}
+		100% {color: rgba(255,255,255,1);}
 	}
 
 	.person-container{

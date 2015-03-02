@@ -72,12 +72,31 @@ button {
   margin-top: 25px;
   margin-bottom: 275px;
   display: block;
-  max-width: 700px; }
+  max-width: 700px;
+  /* Chrome, Safari, Opera */
+  /* Standard syntax */ }
   .page-wrapper .title {
     margin-top: 0px;
     margin-bottom: 20px; }
   .page-wrapper .loader {
-    display: none; }
+    display: none;
+    -webkit-animation: loading 0.7s infinite;
+    /* Chrome, Safari, Opera */
+    animation: loading 0.7s infinite; }
+@-webkit-keyframes loading {
+  0% {
+    color: white; }
+  50% {
+    color: rgba(255, 255, 255, 0.2); }
+  100% {
+    color: white; } }
+@keyframes loading {
+  0% {
+    color: white; }
+  50% {
+    color: rgba(255, 255, 255, 0.2); }
+  100% {
+    color: white; } }
   .page-wrapper .person-container {
     display: block;
     margin: auto;

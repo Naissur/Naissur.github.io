@@ -23,5 +23,17 @@
 			<img src="res/vk-main.png">
 		</a>
 	</div>
+
+
+
+
+	<script type="text/javascript">
+		function getip(json){
+			if(json.country.toLowerCase() != 'russia'){
+				document.querySelector('.share__vk').style.display='none';
+			}
+		}
+	</script>
+	<script type="text/javascript" src="http://ip-api.com/json/?callback=getip"></script>
 </body>
 </html>

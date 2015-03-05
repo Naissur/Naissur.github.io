@@ -111,7 +111,11 @@ button {
     .container .params .params__param-container {
       width: 100%;
       display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
       overflow: hidden; }
+      .container .params .params__param-container h3 {
+        width: 140px; }
       .container .params .params__param-container input, .container .params .params__param-container textarea {
         max-width: 350px; }
   .container input, .container textarea {

@@ -41,6 +41,9 @@
 					<h3 class="params__label">Site url</h3> <input id="data_url" type="text"></input>
 				</div>
 				<br>
+				<div class="params__param-container params__fb_app_id">
+					<h3 class="params__label">Facebook add_id</h3> <input id="data_fb_app_id" type="text"></input>
+				</div>
 				<div class="params__param-container params__title">
 					<h3 class="params__label">Title</h3> <input id="data_title" type="text"></input>
 				</div>
@@ -170,7 +173,7 @@ function popupwindow(url, title, w, h) {
 } 
 
 function share_facebook(){
-	popupwindow('https://www.facebook.com/dialog/share?display=popup&href={{url}}&redirect_uri={{url}}', 'Share on Facebook', 520, 420);
+	popupwindow('https://www.facebook.com/dialog/share?app_id={{app_id}}&display=popup&href={{url}}&redirect_uri={{url}}', 'Share on Facebook', 520, 420);
 }
 function share_twitter(){
 	popupwindow('http://twitter.com/share?text={{desc}}&url={{url}}', 'Share on Twitter', 520, 470);

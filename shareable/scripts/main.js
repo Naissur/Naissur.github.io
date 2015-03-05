@@ -10,6 +10,7 @@ $(document).ready(function(){
 
 		var data = {
 			url: $('#data_url').val(),
+			app_id: $('#data_fb_app_id').val(),
 			title: $('#data_title').val(),
 			desc: $('#data_desc').val(),
 			image: $('#data_image').val(),

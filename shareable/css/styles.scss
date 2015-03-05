@@ -156,7 +156,13 @@ button{
 		.params__param-container{
 			width: 100%;
 			display: block;
+			margin-top: 10px;
+			margin-bottom: 10px;
 			overflow: hidden;
+
+			h3{
+				width: 140px;
+			}
 			
 			input, textarea{
 				max-width: 350px;

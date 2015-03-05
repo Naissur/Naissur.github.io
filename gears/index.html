@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
+
 <head>
 	<link rel="stylesheet" href="css/styles.css">
 	<title>Gears animation</title>
 	<meta name="viewport" content="width=device-width">
-</head>
+<style type="text/css"></style></head>
 <body>
 
 	<h1>Gears animation made with SVG and CSS</h1>
@@ -12,6 +13,14 @@
 <div class="container">
 	<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="420" height="330" id="gears">
 
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="0" dy="0"></feOffset>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="20"></feGaussianBlur>
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+    </filter>
+  </defs>
+  
 	  <rect width="320" height="190" ry="0" x="50.000004" y="69.999924" id="rect4833" style="color:#000000;fill:#1d1d39;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></rect>
 	  <g id="gear_2__shadow">
 		<path d="M 162.58395,107.74462 156.4902,108.24462 154.6152,121.36962 151.20895,122.15087 147.8027,123.55712 138.6152,114.05712 133.5527,117.21337 128.77145,121.30712 134.9902,132.99462 132.8027,135.55712 130.83395,138.77587 117.83395,136.52587 115.58395,141.90087 114.08395,148.11962 126.02145,153.96337 125.8027,157.15087 126.0527,160.93212 114.20895,166.71337 115.58395,172.43212 118.0527,178.36962 131.14645,176.08837 132.8027,178.80712 135.14645,181.52587 128.95895,193.21337 133.5527,197.11962 138.95895,200.46337 148.20895,190.93212 151.20895,192.18212 154.5527,192.96337 156.4277,206.08837 162.58395,206.55712 168.7402,206.08837 170.6152,192.96337 173.95895,192.18212 176.95895,190.93212 186.20895,200.46337 191.6152,197.11962 196.20895,193.21337 190.02145,181.52587 192.3652,178.80712 194.02145,176.08837 207.1152,178.36962 209.58395,172.43212 210.95895,166.71337 199.1152,160.93212 199.3652,157.15087 199.14645,153.96337 211.08395,148.11962 209.58395,141.90087 207.33395,136.52587 194.33395,138.77587 192.3652,135.55712 190.1777,132.99462 196.39645,121.30712 191.6152,117.21337 186.5527,114.05712 177.3652,123.55712 173.95895,122.15087 170.5527,121.36962 168.6777,108.24462 162.58395,107.74462 z M 162.8652,127.15087 C 179.43374,127.15087 192.8652,140.58232 192.8652,157.15087 192.8652,173.71941 179.43374,187.15087 162.8652,187.15087 146.29665,187.15087 132.8652,173.71941 132.8652,157.15087 132.8652,140.58232 146.29665,127.15087 162.8652,127.15087 z" id="path4748-4-1-0" style="color:#000000;fill:#446813;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></path>
@@ -47,7 +56,7 @@
 		<path d="M 71.71875,90.71873 65.625,91.21873 63.75,104.34373 60.34375,105.12498 56.9375,106.53123 47.75,97.03123 42.6875,100.18748 37.90625,104.28123 44.125,115.96873 41.9375,118.53123 39.96875,121.74998 26.96875,119.49998 24.71875,124.87498 23.21875,131.09373 35.15625,136.93748 34.9375,140.12498 35.1875,143.90623 23.34375,149.68748 24.71875,155.40623 27.1875,161.34373 40.28125,159.06248 41.9375,161.78123 44.28125,164.49998 38.09375,176.18748 42.6875,180.09373 48.09375,183.43748 57.34375,173.90623 60.34375,175.15623 63.6875,175.93748 65.5625,189.06248 71.71875,189.53123 77.875,189.06248 79.75,175.93748 83.09375,175.15623 86.09375,173.90623 95.34375,183.43748 100.75,180.09373 105.34375,176.18748 99.15625,164.49998 101.5,161.78123 103.15625,159.06248 116.25,161.34373 118.71875,155.40623 120.09375,149.68748 108.25,143.90623 108.5,140.12498 108.28125,136.93748 120.21875,131.09373 118.71875,124.87498 116.46875,119.49998 103.46875,121.74998 101.5,118.53123 99.3125,115.96873 105.53125,104.28123 100.75,100.18748 95.6875,97.03123 86.5,106.53123 83.09375,105.12498 79.6875,104.34373 77.8125,91.21873 71.71875,90.71873 z M 72,110.12498 C 88.56854,110.12498 102,123.55643 102,140.12498 102,156.69352 88.56854,170.12498 72,170.12498 55.43145,170.12498 42,156.69352 42,140.12498 42,123.55643 55.43145,110.12498 72,110.12498 z" id="path4748-4-1-7" style="color:#000000;fill:#27d79b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></path>
 		<path d="M 72,115.12498 C 58.19288,115.12498 47,126.31786 47,140.12498 47,153.93209 58.19288,165.12498 72,165.12498 85.80711,165.12498 97,153.93209 97,140.12498 97,126.31786 85.80711,115.12498 72,115.12498 z M 72,120.12498 C 83.04569,120.12498 92,129.07928 92,140.12498 92,151.17067 83.04569,160.12498 72,160.12498 60.9543,160.12498 52,151.17067 52,140.12498 52,129.07928 60.9543,120.12498 72,120.12498 z" id="path5073-5-5" style="color:#000000;fill:#27d79b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></path>
 	  </g>
-	  <path d="M 0,-2e-5 0,330 420,330 420,-2e-5 z M 50,49.99998 370,49.99998 370,279.9999 50,279.9999 z" id="back" style="color:#000000;fill:#e8e9a5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></path>
+	  <path d="M 0,0 0,330 420,330 420,0 z M 54,49.99998 366,49.99998 366,280 54,279.9999 z" id="back" style="color:#000000;fill:#e8e9a5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" filter="url(#f1)"></path>
 	<g id="handle_top">
 		<rect width="420" height="160" x="0" y="-70" id="rect2987-5-3" style="color:#000000;fill:#e8e9a5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"><path d="M 0,-2e-5 0,330 420,330 420,-2e-5 z M 50,49.99998 370,49.99998 370,279.9999 50,279.9999 z" id="back" style="color:#000000;fill:#e8e9a5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"><path d="M 0,-2e-5 0,330 420,330 420,-2e-5 z M 50,49.99998 370,49.99998 370,279.9999 50,279.9999 z" id="back" style="color:#000000;fill:#e8e9a5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></path></path></rect>
 		<rect width="319.99997" height="39.999996" ry="3.9999998" x="50" y="49.999981" id="rect2987-5-3" style="color:#000000;fill:#2b2b47;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60000002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"></rect>
@@ -84,5 +93,4 @@
 	  </g></svg>
 	</div>
 </body>
-
 </html>

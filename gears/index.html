@@ -15,8 +15,8 @@
 
   <defs>
     <filter id="f1" x="0" y="0" width="200%" height="200%">
-      <feOffset result="offOut" in="SourceAlpha" dx="0" dy="0"></feOffset>
-      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="20"></feGaussianBlur>
+      <feOffset result="offOut" in="SourceAlpha" dx="20" dy="0"></feOffset>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="30"></feGaussianBlur>
       <feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
     </filter>
   </defs>

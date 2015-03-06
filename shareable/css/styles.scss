@@ -20,6 +20,43 @@ $color-accent--darker: darken($color-accent, 5%);
 	background: lighten($color-accent,10%); /* Gecko Browsers */
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+	border: 0;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: rgba(0,0,0,0);
+	border: 0;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: lighten($color-main, 20%);
+	border: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: lighten($color-main, 30%);
+}
+
+::-webkit-scrollbar-corner{
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	color: white;
+}
+
+::-webkit-resizer{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 14px 14px;
+	border-color: transparent transparent lighten($color-main, 20%) transparent;
+}
+
+::-webkit-resizer:hover{
+	border-color: transparent transparent lighten($color-main, 30%) transparent;
+}
+
 body{
 	margin: 20px;
 
@@ -58,6 +95,20 @@ h3{
 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.4rem;
+	font-weight: 500;
+	color: white;
+}
+
+p{
+	display: block;
+
+	margin-bottom: 4px;
+	margin-top: 4px;
+
+	text-align: center;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.0rem;
 	font-weight: 500;
 	color: white;
 }

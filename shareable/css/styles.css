@@ -58,7 +58,13 @@ textarea {
   width: 100%;
   box-sizing: border-box;
   border: white 1px solid;
-  color: white; }
+  color: white;
+  white-space: pre;
+  word-wrap: normal;
+  overflow-x: scroll; }
+
+.result__item textarea {
+  font-size: 1rem; }
 
 input {
   height: 36px;
@@ -190,5 +196,9 @@ button {
 
 .share__item.share__vk:hover {
   background-color: #96AFD4; }
+
+#subtitle {
+  font-size: 1rem;
+  font-weight: normal; }
 
 /*# sourceMappingURL=styles.css.map */

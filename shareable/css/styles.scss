@@ -82,6 +82,14 @@ textarea{
 	border: white 1px solid;
 
 	color: white;
+
+	white-space: pre;
+	word-wrap: normal;
+	overflow-x: scroll;
+}
+
+.result__item textarea {
+	font-size: 1rem;
 }
 
 input{
@@ -269,3 +277,7 @@ button{
     background-color: #96AFD4;
 }
 
+#subtitle {
+	font-size: 1rem;
+	font-weight: normal;
+}

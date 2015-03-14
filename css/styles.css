@@ -96,6 +96,8 @@ p{
 .works{
 	margin-bottom: 80px;
 	padding-bottom: 50px;
+
+	font-size: 0;
 }
 
 .works > .container{
@@ -112,9 +114,10 @@ p{
 
 .works__work{
 	position: relative;
+	display: inline-block;
+
 	width: 410px;
 	max-width: 100%;
-	float: left;
 
 	cursor: pointer;
 
@@ -123,6 +126,8 @@ p{
 	margin-bottom: 30px;
 
 	transition: all 0.2s;
+
+	text-align: center;
 }
 
 .works__work > img{

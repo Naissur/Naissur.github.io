@@ -1,0 +1,88 @@
+
+var artlyFactories = angular.module('artlyFactories', []);
+
+artlyFactories.factory('painterFactory', 
+	function(){
+		var factory = {};
+		var painters = [];
+		
+		factory.getPainters = function(){
+			return painters;
+		}
+
+		return factory;
+	})
+.factory('searchFactory', 
+	function(){
+		var factory = {};
+
+		var searchParams = [
+			{
+				name: 'Epoch',
+				options: [
+					'Renaissance',
+					'Modernism',
+					'Digital Art'
+				]
+			},
+			{
+				name: 'Genre',
+				options: [
+					'High Renaissance',
+					'Early Renaissance',
+					'Avant-garde',
+					'Primitivism',
+					'Anti-art',
+					'Cubism'
+				],
+			}
+		];
+
+		factory.getParams = function(){
+			return searchParams;
+		}
+
+		return factory;
+	}
+)
+.factory('epochFactory',
+	function(){
+		factory = {};
+		
+		var epochs = [
+			{
+				name: 'Renaissance',
+				images: [
+					'http://img0.liveinternet.ru/images/attach/c/6/92/522/92522590_zhenschinazhemchuzhina.jpg',
+					'http://files.adme.ru/files/news/part_28/283055/2.jpg',
+					'http://files.adme.ru/files/news/part_28/283055/3.jpg'
+				],
+				desc: 'The Renaissance marks the period of European history at the close of the Middle Ages and the rise of the Modern world. It represents a cultural rebirth from the 14th through the middle of the 17th centuries. Early Renaissance, mostly in Italy, bridges the art period during the fifteenth century, between the Middle Ages and the High Renaissance in Italy. It is generally known that Renaissance matured in Northern Europe later, in the 16th century.[49] One of the distinguishing features of Renaissance art was its development of highly realistic linear perspective.'
+			},
+			{
+				name: 'Modernism',
+				images: [
+					'http://affordableartfair.com/hampstead/files/2013/03/the-starry-night-18891-460x287.jpg',
+					'http://webstarco.narod.ru/painting/images/petrov5.jpg',
+					'https://dg19s6hp6ufoh.cloudfront.net/pictures/612359965/large/bather-1928.jpeg'
+				],
+				desc: 'Modernism is a philosophical movement that, along with cultural trends and changes, arose from wide-scale and far-reaching transformations in Western society in the late 19th and early 20th centuries. Among the factors that shaped Modernism were the development of modern industrial societies and the rapid growth of cities, followed then by the horror of World War I. Modernism also rejected the certainty of Enlightenment thinking, and many modernists rejected religious belief.'
+			},
+			{
+				name: 'Digital Art',
+				images: [
+					'http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2012/12/ironhide.jpg',
+					'http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2012/12/debbie(1).jpg',
+					'http://media.creativebloq.futurecdn.net/sites/creativebloq.com/files/images/2012/12/party.jpg'
+				],
+				desc: 'Digital art is an artistic work or practice that uses digital technology as an essential part of the creative or presentation process. Since the 1970s, various names have been used to describe the process including computer art and multimedia art, and digital art is itself placed under the larger umbrella term new media art.'
+			}
+		];
+
+		factory.getEpochs = function(){
+			return epochs;
+		}
+
+		return factory;
+	}
+);

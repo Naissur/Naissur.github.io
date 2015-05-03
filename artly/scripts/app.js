@@ -5,6 +5,7 @@ var artlyApp = angular.module('artlyApp', [
 	'artlyControllers',
 	'artlyFactories',
 	'artlyFilters',
+	'ngAnimate',
 	'ngRoute'
 ]);
 

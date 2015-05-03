@@ -13,7 +13,7 @@
 
 	<div class="search__results">
 		<a data-ng-repeat="painter in painters | searchFilter: search.query: search.params: getActiveParamOptions() | orderBy:'name'" href="#/painter{{painter.id}}">
-			<div class="search__results__result">
+			<div class="animation-fade search__results__result">
 				<img class="search__results__result__img" data-ng-src="{{painter.img}}">
 				<p class="search__results__result__name">{{painter.name}}</p>
 			</div>

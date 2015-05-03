@@ -4,7 +4,9 @@ var artlyControllers = angular.module('artlyControllers', []);
 artlyControllers
 	.controller('mainController', 
 		function($scope){
-
+			$scope.showImage = function(url){
+				console.log(url);
+			}
 		}
 	)
 	.controller('searchController', 
@@ -71,8 +73,6 @@ artlyControllers
 	.controller('galleryController', 
 		function($scope, galleryFactory){
 			var gallery = galleryFactory.getGallery();
-			console.log(gallery);
-
 			$scope.gallery = gallery;
 		}
 	)

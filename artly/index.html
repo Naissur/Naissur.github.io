@@ -3,6 +3,7 @@
 	<head>
 		<title>Artly.</title>
 		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8"> 
 
 		<link rel="stylesheet" href="css/styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
@@ -12,16 +13,17 @@
 		<script type="text/javascript" src="scripts/angular.min.js"></script>
 		<script type="text/javascript" src="scripts/angular-route.min.js"></script>
 		<script type="text/javascript" src="scripts/angular-resource.min.js"></script>
+		<script type="text/javascript" src="scripts/angular-animate.min.js"></script>
 
+		<script type="text/javascript" src="scripts/app.js"></script>
 		<script type="text/javascript" src="scripts/filters.js"></script>
 		<script type="text/javascript" src="scripts/factories.js"></script>
 		<script type="text/javascript" src="scripts/controllers.js"></script>
-		<script type="text/javascript" src="scripts/app.js"></script>
 	</head>
 	<body>
 		<div class="header">
 			<a href="#/">
-				<img class="header__logo" src="res/logo.png">
+				<img class="header__logo" src="res/logo.svg">
 			</a>
 		</div>
 		<div class="nav">
@@ -31,7 +33,9 @@
 			<a class="nav__item" href="#/">about</a>
 		</div>
 
-		<div data-ng-view > </div>
+		<div style="position:relative;overflow:hidden">
+			<div data-ng-view class="animation-fadein-left"> </div>
+		</div>
 
 		<div class="footer">
 			<img src="res/brushes.png">

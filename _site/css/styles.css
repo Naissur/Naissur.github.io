@@ -32,7 +32,7 @@ body, html{
   from {
     background-position: 0px 0px;
   }
-  50% {
+  10% {
     background-position: -160px 0px;
   }
   to {

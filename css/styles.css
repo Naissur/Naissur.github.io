@@ -30,6 +30,7 @@ body, html{
 
 body{
   background: url("../res/pattern_3.png");
+  image-rendering: pixelated;
   background-attachment: fixed;
   word-break: break-word;
 }

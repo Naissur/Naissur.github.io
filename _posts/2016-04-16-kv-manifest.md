@@ -3,7 +3,7 @@ layout:     post
 title:      "KV Manifesto"
 date:       Thu 16 Mar 2017 08:27:50 AM UTC
 comments:   true
-categories: test
+categories: articles
 ---
 
 

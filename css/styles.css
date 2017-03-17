@@ -51,6 +51,11 @@ body{
   animation-duration: 4s;
 }
 
+.index-page-link {
+  cursor: pointer;
+  text-align: left;
+}
+
 a {
   font-size: 1em;
 }
@@ -77,8 +82,8 @@ li {
 }
 
 h1{
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-right: 16px;
   padding-left: 16px;
 
@@ -88,12 +93,11 @@ h1{
   font-size: 4.2em;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
-  line-height: 1.4em;
 }
 
 h2{
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-right: 30px;
   padding-left: 30px;
 
@@ -104,8 +108,8 @@ h2{
 }
 
 h3{
-  padding-top: 6px;
-  padding-bottom: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-right: 30px;
   padding-left: 30px;
 
@@ -251,7 +255,6 @@ p{
 @media screen and (max-width: 800px){
   h1{
     font-size: 4.2em;
-    line-height: 1em;
   }
   h2{
     font-size: 2.5em;
@@ -271,7 +274,6 @@ p{
 @media screen and (max-width: 400px){
   /*h1{
   font-size: 3em;
-  line-height: 3.5em;
   }
   h2{
   font-size: 1.5em;
@@ -281,6 +283,5 @@ p{
     padding-right: 20px;
     margin-top: 20px;
     /*font-size: 1.2em;
-    line-height: 2.0em;*/
 }
 }

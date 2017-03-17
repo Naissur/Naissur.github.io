@@ -3,4 +3,4 @@ all:
 watch:
 	jekyll build --watch
 serve:
-	jekyll serve -H 0.0.0.0
+	jekyll serve -H 0.0.0.0 -P 4001

@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "KV Manifesto"
-date:   Thu 16 Mar 2017 08:27:50 AM UTC
+layout:     post
+title:      "KV Manifesto"
+date:       Thu 16 Mar 2017 08:27:50 AM UTC
+comments:   true
 categories: test
 ---
 
@@ -56,3 +57,4 @@ Design: **Sketch**
 ## CONTACT US
 
 [Vladislav, CEO](mailto:vlad.aituganov@gmail.com?Subject=KV), [Alexey, CTO](mailto:alexey.knyshev@gmail.com?Subject=KV)
+

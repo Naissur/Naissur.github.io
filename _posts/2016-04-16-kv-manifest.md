@@ -33,6 +33,7 @@ The cost is **30 %** higher than average on the freelance market, or individual 
 
 To join forces: in making what is **in our common interests**; and **avoid making thigs which any one of us dislikes**.
 
+
 ## OUR PRINCIPLES AND DEFINITIONS
 
 - **Clarity in communication**

@@ -7,7 +7,7 @@ categories: articles
 ---
 
 
-## KV MANIFESTO
+## <img style="height: 54px;vertical-align: bottom;margin-bottom: 1px;" src="/res/kv.svg"/>MANIFESTO
 
 This **manifesto** is a dynamic conflicts resolution, and desicion making instrument of KV company.
 

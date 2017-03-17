@@ -30,13 +30,13 @@ body, html{
 
 @keyframes background {
   from {
-    background-position: 0px 0px;
+    background-position: -20px 0px;
   }
   10% {
-    background-position: -160px 0px;
+    background-position: 0px 0px;
   }
   to {
-    background-position: -160px 0px;
+    background-position: 0px 0px;
   }
 }
 

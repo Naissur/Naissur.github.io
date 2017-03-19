@@ -27,7 +27,7 @@ We can know each other, or you can know us either by [github](https://github.com
 
 ## PRICE
 
-The cost is **30 %** higher than average on the freelance market, or individual agencies.
+The cost is **30%** higher than average on the freelance market, or individual agencies.
 
 ## GOAL
 

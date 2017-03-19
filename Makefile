@@ -1,6 +1,6 @@
 all:
-	jekyll build --destination build/
+	bundle exec jekyll build --destination build/
 watch:
-	jekyll build --watch
+	bundle exec jekyll build --watch
 serve:
-	jekyll serve -H 0.0.0.0 -P 4001
+	bundle exec jekyll serve -H 0.0.0.0 -P 4001

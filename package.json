@@ -7,10 +7,11 @@
     "livereloadx": "^0.3.9"
   },
   "devDependencies": {
+    "forever": "^0.15.3",
     "livereloadx": "^0.3.9"
   },
   "scripts": {
-    "livereload": "livereloadx -p 35729 ."
+    "livereload": "forever ./node_modules/.bin/livereloadx -p 35729 ."
   },
   "repository": {
     "type": "git",

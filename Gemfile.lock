@@ -12,6 +12,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-mermaid (1.0.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -34,6 +35,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.0.5)
+  jekyll-mermaid
 
 BUNDLED WITH
    1.14.6

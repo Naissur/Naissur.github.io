@@ -1,0 +1,9 @@
+session_name: blog
+windows:
+- window_name: main
+  layout: main-vertical
+  panes:
+    - make serve
+    - vim
+    -
+

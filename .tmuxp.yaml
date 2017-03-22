@@ -3,7 +3,7 @@ windows:
 - window_name: main
   layout: main-vertical
   panes:
-    - make serve
     - vim
+    - rvm use ruby-2.1.1 && make serve
     -
 

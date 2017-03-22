@@ -1,5 +1,5 @@
 all:
-	bundle exec jekyll build --destination build/
+	JEKYLL_ENV=production bundle exec jekyll build --destination build/
 watch:
 	bundle exec jekyll build --watch
 serve:

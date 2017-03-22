@@ -22,6 +22,10 @@
   clear: both;
 }
 
+.mermaid {
+  color: rgba(0,0,0,0.2);
+}
+
 body, html{
   margin: 0;
   padding: 0;
@@ -74,12 +78,23 @@ hr {
 }
 
 ul {
-  padding: 16px;
 
   display: inline-block;
   /* list-style-type: none; */
 
-  padding: 8px 66px;
+  padding: 8px 70px;
+  margin: 24px;
+}
+
+code {
+  display: block;
+
+  font-family: monospace;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 2px;
+  padding: 8px;
+
+  box-shadow: rgba(0,0,0,0.1) 0px 2px 4px;
 }
 
 li {

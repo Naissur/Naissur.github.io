@@ -12,8 +12,8 @@
   padding: 0;
 
   font-size: 1.0em;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  /* font-weight: 600; */
 
   box-sizing: border-box;
 }
@@ -28,11 +28,32 @@ body, html{
   text-align: center;
 }
 
+@keyframes background {
+  from {
+    background-position: -20px 0px;
+  }
+  10% {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 0px 0px;
+  }
+}
+
 body{
+  background-position: 0px;
   background: url("../res/pattern_3.png");
   image-rendering: pixelated;
   background-attachment: fixed;
   word-break: break-word;
+
+  animation-name: background;
+  animation-duration: 4s;
+}
+
+.index-page-link {
+  cursor: pointer;
+  text-align: left;
 }
 
 a {
@@ -44,11 +65,19 @@ b {
   font-weight: 400;
 }
 
+hr {
+  height: 1px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 ul {
   padding: 16px;
 
   display: inline-block;
-  list-style-type: none;
+  /* list-style-type: none; */
 
   padding: 8px 66px;
 }
@@ -61,40 +90,39 @@ li {
 }
 
 h1{
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-right: 16px;
   padding-left: 16px;
 
   margin-bottom: 16px;
-  margin-top: 16px;
+  margin-top: 0px;
 
-  font-size: 4.2em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.0em;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  line-height: 1.4em;
 }
 
 h2{
-  padding-top: 6px;
-  padding-bottom: 8px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-right: 30px;
   padding-left: 30px;
 
-  font-size: 3em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h3{
-  padding-top: 6px;
-  padding-bottom: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-right: 30px;
   padding-left: 30px;
 
-  font-size: 2.4em;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -107,9 +135,9 @@ p{
   padding-right: 50px;
   padding-left: 50px;
 
-  font-size: 1.5em;
-  font-weight: 700;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.0em;
+  /* font-weight: 700; */
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page-wrapper{
@@ -118,7 +146,8 @@ p{
   margin-bottom: 150px;
   max-width: 1000px;
 
-  padding: 16px;
+  padding: 16px 32px;
+  padding-bottom: 24px;
 
   background-color: white;
   box-shadow: #000 0px 12px 40px;
@@ -129,7 +158,7 @@ p{
 
 .intro{
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 
 }
 
@@ -234,15 +263,14 @@ p{
 
 @media screen and (max-width: 800px){
   h1{
-    font-size: 4.2em;
-    line-height: 1em;
+    font-size: 2.0em;
   }
   h2{
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   p{
     margin: 24px;
-    font-size: 1.7em;
+    font-size: 1.0em;
   }
 }
 
@@ -255,7 +283,6 @@ p{
 @media screen and (max-width: 400px){
   /*h1{
   font-size: 3em;
-  line-height: 3.5em;
   }
   h2{
   font-size: 1.5em;
@@ -264,7 +291,6 @@ p{
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
-    /*font-size: 1.2em;
-    line-height: 2.0em;*/
+    font-size: 1.0em;
 }
 }

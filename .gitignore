@@ -1,5 +1,4 @@
 *.swp
-build/
 _site/
 
 node_modules/

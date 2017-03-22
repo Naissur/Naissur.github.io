@@ -5,5 +5,6 @@ windows:
   panes:
     - vim
     - rvm use ruby-2.1.1 && make serve
+    - npm run livereload
     -
 

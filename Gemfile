@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.5.3'
+gem 'jekyll', '~> 3.0.5'
 # gem 'yajl-ruby', '~> 1.2.1'

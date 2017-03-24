@@ -10,5 +10,17 @@
       "categories: articles",
       "---"
     ]
+  },
+  "_drafts/*.md": {
+    "type": "draft",
+    "template": [
+      "---",
+      "layout: draft",
+      "title:  {}",
+      "date:   <DATE>",
+      "comments:   false",
+      "categories: drafts",
+      "---"
+    ]
   }
 }

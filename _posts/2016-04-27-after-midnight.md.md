@@ -32,7 +32,7 @@ Turns out, our:
 - thought process
 - body
 - instincts
-- [limbic system and the "reptilian brain"](https://en.wikipedia.org/wiki/Triune_brain)
+- [the limbic system and the "reptilian brain"](https://en.wikipedia.org/wiki/Triune_brain)
 
 are *not* fully under our control. Though, they can be influenced by shifting focus.
 
@@ -43,8 +43,8 @@ The only choice in our lives is what we currently focus on, and whether we influ
 
 No one knows how to be happy. Though, the sheer knowledge of what you can and can't control might give you room for creating happiness.
 
-We all have our choices. Their **sequence** conformly **maps to chaos** after minutes, months and years.
-This, in fact, is the **real us**. Our **choices of momentary focus** is what makes us, *us*.
+We all have our *choices*. Their **sequence maps to chaos** after minutes, months and years.
+This, in fact, is the **real us**. Our **choices of momentary focus** are what makes us, *us*.
 
 I thought about it after midnight in an important relationship. Connection. Whatever it might be called.
 

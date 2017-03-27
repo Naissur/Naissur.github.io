@@ -20,7 +20,8 @@ As a testable truth, we can *partially* control our **momentary focus**.
 
 Though, it can be influenced by others, which is known as **communication**.
 
-*Imagine* a **red car**. You see - Your focus was shifted to this notion of some red car, meaning I *communicated* the *idea of a red car* to you.
+**Imagine a red car**.
+You see - Your focus was shifted to this notion of some red car, meaning I *communicated* the *idea of a red car* to you.
 
 Turns out, our:
 

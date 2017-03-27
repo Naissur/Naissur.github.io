@@ -6,6 +6,8 @@ comments:   true
 categories: articles
 ---
 
+## WARNING: depth ahead!
+
 # After midnight, happiness, choice, Mr. Nobody, work, life, mind, focus, control, reasons, meaning
 
 ## What did I do to deserve this?
@@ -29,7 +31,8 @@ Turns out, our:
 - happiness
 - thought process
 - body
-- instincts, animal brain parts
+- instincts
+- [limbic system and the "reptilian brain"](https://en.wikipedia.org/wiki/Triune_brain)
 
 are *not* fully under our control. Though, they can be influenced by shifting focus.
 
@@ -49,8 +52,8 @@ Every single choice is the hardest now.
 
 > Before, he was unable to make a choice 'cause he didn't know what would happen.
 > Now that he knows what will happen, he is unable to make a choice.
-
-*(quoted from Mr. Nobody)*
+> 
+> (quoted from Mr. Nobody)
 
 Thanks for reading.
 

@@ -22,6 +22,62 @@
   clear: both;
 }
 
+img.avatar {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+.page-wrapper.cv {
+  padding: 0;
+}
+
+.cv__left {
+  float: left;
+  max-width: 300px;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+.cv__left ul {
+  padding: 8px 64px;
+  margin: 0px;
+}
+
+.cv__left hr {
+  background-color: rgba(255,255,255,0.4);
+}
+.cv__left a {
+  color: white;
+}
+
+.cv__right {
+  padding-left: 300px;
+}
+.cv__right a {
+  color: rgba(0,0,0,0.7);
+}
+
+.cv__right ul {
+  display: block;
+  padding: 8px 32px;
+  margin: 0px;
+}
+
+.project {
+  text-align: left;
+  padding: 8px 32px;
+}
+.project__description {
+  color: grey;
+}
+
+.project__link {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .mermaid {
   color: rgba(0,0,0,0.2);
 }
@@ -78,6 +134,12 @@ body{
   animation-duration: 4s;
 }
 
+@media print {
+  body {
+    background: none;
+  }
+}
+
 .index-page-link {
   cursor: pointer;
   text-align: left;
@@ -89,7 +151,7 @@ a {
 
 b {
   font-size: 1.0em;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 hr {
@@ -142,10 +204,10 @@ h1{
 }
 
 h2{
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-right: 26px;
+  padding-left: 26px;
 
   font-size: 1.5em;
   font-family: 'Open Sans', sans-serif;
@@ -192,6 +254,16 @@ p{
 
   font-weight: 300;
   color: rgba(0,0,0,0.8);
+}
+
+@media print {
+  .page-wrapper {
+    margin: 0;
+    max-width: auto;
+    box-shadow: none!important;
+
+    border: 1px solid grey;
+  }
 }
 
 .intro{

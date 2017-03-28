@@ -60,6 +60,7 @@ img.avatar {
 .cv__left ul {
   padding: 8px 36px;
   margin: 0px;
+  color: white;
 }
 
 .cv__left hr {
@@ -238,6 +239,8 @@ ul {
 
   padding: 8px 70px;
   margin: 16px;
+
+  color: #888;
 }
 
 code {

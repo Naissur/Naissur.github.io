@@ -17,37 +17,40 @@
   <body>
     <div class="page-wrapper">
       <div class="intro">
+        <img
+          class="avatar"
+          width="160"
+          height="160"
+          src="http://en.gravatar.com/userimage/98692382/a61dda542df096983029367042bf9a19.jpg?size=160"
+        />
         <h1>Hello! I'm Vlad Aituganov <br/>(aka Naissur).</h1>
-        <hr/>
         <p>
-          Currently I make <b>predictable front-end</b>, which solves problems in a new way, doing maths, composing and recording music.
-          <br/>
-          And overall: creating working, beautiful products.
+          Currently I am making
+          <nobr><b>working, predictable and beautiful</nobr> front-end products</b>,
+          writing, and studying.
           <br/>
           <br/>
           This is my website, and blog.
         </p>
-
       </div>
 
       <br/>
-      <hr/>
 
-      <h2>
+      <h1 style="padding-bottom: 0">
         Works
-      </h2>
+      </h1>
 
       <a href="http://ec2-35-157-217-245.eu-central-1.compute.amazonaws.com/">Personal Accounting</a>
 
       <br/>
       <br/>
-      <hr/>
+      <br/>
 
-      <h2>
+      <h1 style="padding-bottom: 0; margin-bottom: 8px;">
         Articles
-      </h2>
+      </h1>
 
-      <ul>
+      <ul style="margin-top: 0">
         {% for post in site.posts %}
           <li>
             <a href="{{ post.url }}">

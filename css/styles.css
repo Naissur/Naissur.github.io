@@ -26,8 +26,8 @@ img.avatar {
   border-radius: 50%;
   width: 160px;
   height: 160px;
-  border: 1px solid rgba(0,0,0,0.5);
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.6);
+  border: 3px solid white;
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
 }
 
 .page-wrapper.cv {
@@ -37,6 +37,11 @@ img.avatar {
 .cv p {
   padding: 8px 20px;
   margin: 0;
+}
+
+.cv img.avatar{
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.6);
 }
 
 .cv__left {
@@ -232,7 +237,7 @@ ul {
   /* list-style-type: none; */
 
   padding: 8px 70px;
-  margin: 24px;
+  margin: 16px;
 }
 
 code {
@@ -295,6 +300,7 @@ p{
   text-align: left;
   margin: auto;
   margin-top: 16px;
+
   max-width: 660px;
   padding-right: 50px;
   padding-left: 50px;

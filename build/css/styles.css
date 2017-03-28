@@ -124,6 +124,7 @@ img.avatar {
 
 .work-exp__description {
   color: grey;
+  margin-bottom: 8px;
 }
 
 .work-exp__dates {

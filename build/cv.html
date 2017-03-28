@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:image" content="http://en.gravatar.com/userimage/98692382/a61dda542df096983029367042bf9a19.jpg?size=200"/>
     <meta property="og:title" content="Vlad Aituganov CV"/>
-    <meta name="description" content="Currently I am making working, predictable and beautiful front-end products, writing and studying." />
+    <meta name="description" content="Currently I am making working, predictable and beautiful front-end products, writing, and studying." />
     <meta property="og:url" content="http://naissur.github.io/cv.html"/>
     <meta property="og:site_name" content="Naissur Codes"/>
     <meta property="og:type" content="blog"/>
@@ -24,13 +24,22 @@
             height="160"
             src="http://en.gravatar.com/userimage/98692382/a61dda542df096983029367042bf9a19.jpg?size=160"
           />
-          <h1 style="margin-bottom: 0px">Vlad Aituganov</h1>
+          <h1 style="padding-bottom: 8px; margin-bottom: 0px">Vlad Aituganov,</h1>
           <strong>Web Front-end Engineer</strong>
           <br />
           <br />
+          <div style="text-align: left; padding-left: 24px">
+            <div><strong>birth date</strong>: 28 Sep 1995</div>
+            <div><strong>phone</strong>: +7(915)899-37-31</div>
+            <div><strong>e-mail</strong>: vlad.aituganov@gmail.com</div>
+          </div>
+          <br />
           <hr/>
 
-          <h2>Skills / Tools used</h2>
+          <h2 style="padding-bottom: 0">Skills / Tools used</h2>
+
+          <div>English, advanced level</div>
+          <br />
 
           <ul>
             <li>HTML</li>
@@ -41,10 +50,10 @@
             <li>Redux Sagas</li>
             <li>Webpack</li>
             <li>Linux</li>
-            <li>vim+tmux+zsh</li>
-            <li>English</li>
+            <li>vim + tmux + zsh</li>
+            <br />
             <li>Software reliability principles</li>
-            <li>Functional programming paradigm</li>
+            <li>Functional programming</li>
             <li>Actor model</li>
             <li>TDD</li>
           </ul>
@@ -54,7 +63,7 @@
           <hr />
 
           <p>
-            Currently I am making <b>working, predictable and beautiful front-end products</b>, writing and studying.
+            Currently I am making <b>working, predictable and beautiful front-end products</b>, writing, and studying.
           </p>
 
           <br />
@@ -69,89 +78,141 @@
           <br />
           <br />
           <br />
+          <hr />
 
         </div>
       </div>
 
       <div class="cv__right">
-        <br/>
+        <div class="cv__right__inner">
 
-        <h2>
-          Projects
-        </h2>
+          <br/>
 
-        <div class="project">
-          <a
-            href="youtu.be/ru9U8_gfmtA"
-            class="project__link"
-          >KV Accounting</a>
-          <div class="project__description">
-            Safe, predictable, web-based personal accounting.
-            <em>Personal side-project.</em>
+          <h2>
+            Projects
+          </h2>
+
+          <div class="project">
+            <a
+              href="youtu.be/ru9U8_gfmtA"
+              class="project__link"
+            >KV Accounting</a>
+            <div class="project__description">
+              Safe, predictable, web-based personal accounting.
+              <br />
+              Personal side-project.
+              <br />
+              <a href="http://accounting.key-value.org">accounting.key-value.org</a>
+            </div>
+          </div>
+
+          <div id="project-tutorme" class="project">
+            <a
+              href="https://tutorme.com"
+              class="project__link"
+            >TutorMe.com</a>
+            <div class="project__description">
+              Instant online tutoring platform.
+              <br />
+              Responsible for developing the virtual whiteboard, and the lesson space in general.
+            </div>
+          </div>
+
+          <div id="project-metapro" class="project">
+            <a
+              href="https://meta-pro-naissur.firebaseapp.com/"
+              class="project__link"
+            >MetaPro</a>
+            <div class="project__description">
+              Web-based mind-mapping tool.
+              <br />
+              Responsible for implementing:
+              <ul>
+                <li>the mindmap rendering and interactions</li>
+                <li>nodes and edges CRUD</li>
+                <li>visual animations</li>
+              </ul>
+            </div>
+          </div>
+
+          <hr />
+          <h2>
+            Work experience
+          </h2>
+
+
+          <div class="work-exp">
+            <span class="work-exp__dates">Nov 2016 - Dec 2017 </span>
+            <a
+              href="http://kindbeetle.ru/"
+              class="work-exp__link"
+              >
+               Kindbeetle</a>
+            <div class="work-exp__description">
+              A full-stack team with
+              established experience in web development.
+            </div>
             <br />
-            <a href="http://accounting.key-value.org">accounting.key-value.org</a>
+            <div class="work-exp__done">
+              Worked on several projects, including:
+              <ul>
+                <li>Pladform SSP</li>
+                <a href="#project-metapro"><li>Meta.Pro</li></a>
+                <a href="#project-tutorme"><li>TutorMe.com</li></a>
+              </ul>
+            </div >
           </div>
-        </div>
 
-        <div class="project">
-          <a
-            href="https://github.com/naissur/otp-js"
-            class="project__link"
-          >OTP-js</a>
-          <div class="project__description">
-            Erlang/OTP utilities library in Javascript.
-          </div>
-        </div>
-
-        <div class="project">
-          <a
-            href="https://tutorme.com"
-            class="project__link"
-          >TutorMe.com</a>
-          <div class="project__description">
-            Instant online tutoring platform.
+          <div class="work-exp">
+            <span class="work-exp__dates">Jun 2015 - Nov 2016 </span>
+            <a
+              href="https://erlyvideo.ru/"
+              class="work-exp__link"
+            >Flussonic</a>
+            <div class="work-exp__description">
+              Flussonic team creates professional
+              video streaming software.
+            </div>
             <br />
-            <em>Responsible for:</em> making the virtual whiteboard, and the lesson space in general.
+            <div class="work-exp__done">
+              Made improvements on the internal CRM,
+              and the Erlyvideo video player front-ends
+            </div>
           </div>
-        </div>
 
-        <div class="project">
-          <a
-            href="https://meta-pro-naissur.firebaseapp.com/"
-            class="project__link"
-          >MetaPro</a>
-          <div class="project__description">
-            Web-based mind-mapping tool.
+          <div class="work-exp">
+            <span class="work-exp__dates">Mar 2015 - Jun 2015 </span>
+            <span class="work-exp__link">
+              Bitect.com
+            </span >
+            <div class="work-exp__description">
+              Bitect is a service for buying and selling bitcoins quickly and safely.
+            </div>
             <br />
-            Responsible for :
-            <ul>
-              <li>the mindmap rendering and interactions</li>
-              <li>nodes and edges CRUD</li>
-              <li>(partially for) implementing visual animations</li>
-            </ul>
+            <div class="work-exp__done">
+              Developed the website front-end.
+            </div>
           </div>
-        </div>
 
+          <br/>
+          <br/>
+          <hr/>
 
-        <br/>
-        <br/>
-        <hr/>
+          <h2>Education</h2>
 
-        <h2>Education</h2>
+          <p>
+            <a href="http://spbu.ru/">Saint-Petersburg State University</a>
+            <br />
 
-        <p>
-          <a href="http://spbu.ru/">Saint-Petersburg State University</a>
+            <em>Sep 2013 - Mar 2015</em>:
+            Completed 2 years towards a Bachelor’s Degree in <strong>Applied Mathematics and Computer Science</strong>.
+            <br />
+            The interrupt was due to personal reasons.
+          </p>
+
           <br />
-
-          <em>Sep 2013 - Mar 2015</em>:
-          Completed 2 years towards a Bachelor’s Degree in <strong>Applied Mathematics and Computer Science</strong>.
-          <br />
-          The interrupt was due to personal reasons.
-        </p>
-
-        <br />
-        <hr />
-
+          <hr />
+        </div>
       </div>
 
       <div class="clearfix"></div>

@@ -27,6 +27,7 @@ img.avatar {
   width: 160px;
   height: 160px;
   border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 7px rgba(0,0,0,0.6);
 }
 
 .page-wrapper.cv {
@@ -36,8 +37,14 @@ img.avatar {
 .cv__left {
   float: left;
   max-width: 300px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: #4e4e4e;
   color: white;
+}
+
+@media screen {
+  .cv__left {
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.6);
+  }
 }
 
 .cv__left ul {
@@ -47,14 +54,26 @@ img.avatar {
 
 .cv__left hr {
   background-color: rgba(255,255,255,0.4);
+  border-top: 1px solid black;
 }
 .cv__left a {
   color: white;
 }
+.cv__left h1 {
+  text-shadow: 0px 2px 7px rgba(0,0,0,0.6);
+}
 
 .cv__right {
   padding-left: 300px;
+  background-color: #4e4e4e;
 }
+
+.cv__right__inner {
+  background-color: white;
+  border-left: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+}
+
 .cv__right a {
   color: rgba(0,0,0,0.7);
 }
@@ -76,6 +95,29 @@ img.avatar {
 .project__link {
   font-weight: bold;
   font-size: 1.2em;
+}
+
+.work-exp{
+  text-align: left;
+  padding: 8px 32px;
+  margin-bottom: 24px;
+}
+
+.work-exp__description {
+  color: grey;
+}
+
+.work-exp__dates {
+  display: block;
+}
+
+.work-exp__done {
+}
+
+.work-exp__link {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgba(0,0,0,0.7);
 }
 
 .mermaid {

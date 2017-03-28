@@ -243,6 +243,13 @@ ul {
   color: #888;
 }
 
+
+@media screen and (max-width: 640px){
+  ul {
+    padding: 8px 16px;
+  }
+}
+
 code {
   display: inline-block;
 

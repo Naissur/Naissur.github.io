@@ -47,13 +47,13 @@ img.avatar {
 .cv__left {
   float: left;
   max-width: 300px;
-  background-color: #4e4e4e;
+  background-color: #0f7bb1;
   color: white;
 }
 
 @media screen {
   .cv__left {
-    text-shadow: 0px 1px 5px rgba(0,0,0,0.6);
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.3);
   }
 }
 
@@ -64,19 +64,19 @@ img.avatar {
 }
 
 .cv__left hr {
-  background-color: rgba(255,255,255,0.4);
-  border-top: 1px solid black;
+  border-bottom-color: rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(0,0,0,0.7);
 }
 .cv__left a {
   color: white;
 }
 .cv__left h1 {
-  text-shadow: 0px 2px 7px rgba(0,0,0,0.6);
+  text-shadow: 0px 2px 7px rgba(0,0,0,0.3);
 }
 
 .cv__right {
   padding-left: 300px;
-  background-color: #4e4e4e;
+  background-color: #0f7bb1;
 }
 
 @media screen and (max-width: 640px){
@@ -201,6 +201,10 @@ body{
 
   animation-name: background;
   animation-duration: 4s;
+}
+
+body.cv-body {
+  background: #ddd;
 }
 
 @media print {
@@ -335,6 +339,10 @@ p{
 
   font-weight: 300;
   color: rgba(0,0,0,0.8);
+}
+
+.cv.page-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
 }
 
 @media print {

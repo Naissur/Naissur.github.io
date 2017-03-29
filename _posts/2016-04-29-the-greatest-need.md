@@ -31,9 +31,9 @@ categories: articles
 <br /> Get better from the randomness, and they survive.
 <br />
 <br /> The name for it is contrary
-<br /> To being fragile: it is named
+<br /> To being fragile: it's named
 <br /> *Antifragility*. So, here's my word, accordingly
-<br /> By which the life is tamed:
+<br /> By which my life gets tamed:
 <br />
 <br /> The highest need is in:
 <br /> Controllably creating

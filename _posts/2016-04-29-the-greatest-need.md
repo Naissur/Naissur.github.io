@@ -43,14 +43,14 @@ categories: articles
 <br /> *A bond* has a *conductor* of some sort.
 <br /> For writer - books
 <br /> For painter - art, in short,
-<br /> For lovers - sex and looks.
+<br /> For lovers - sex and talks.
 
 ---
 
 <br /> This was a strong,
 <br /> Dramatic murder of my dreams.
 <br /> And then, you can't go on,
-<br /> Once all is simplified, when knowing what it means.
+<br /> Once all is simplified, when knowing what this means.
 <br />
 <br />
 <br /> But when we're bonded
@@ -60,7 +60,7 @@ categories: articles
 <br />
 <br /> All the colors of the world
 <br /> Are both beneath you, and inside.
-<br /> The word has to be spread - you're old
+<br /> This word has to be spread - you're old
 <br /> And thoughts - they are too low, too high.
 <br />
 <br /> And the many has become the one, reborn
@@ -102,7 +102,7 @@ categories: articles
 <br /> Имя этому противоположно
 <br /> "Хрупкости": это называют
 <br /> "Анти-хрупкостью". вот мои слова,
-<br /> Которые укрощают всю строптивую жизнь:
+<br /> Которые укрощают мою вечно строптивую жизнь:
 <br /> 
 <br /> Величайшая нужда в том, чтобы
 <br /> Контролем создавать опциональную,
@@ -137,7 +137,7 @@ categories: articles
 <br /> И многие станут одним, переродятся.
 <br /> Станут много больше суммы частей:
 <br /> Затем всё сломается, перекрутится и возродится. Когда
-<br /> Связаны, ставшими крепче, дух твой и тело.
+<br /> *Связаны, ставшими крепче, твои дух и тело.*
 
 
 

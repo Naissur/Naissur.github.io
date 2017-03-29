@@ -66,7 +66,7 @@ categories: articles
 <br /> And the many has become the one, reborn
 <br /> Much more than sum of all:
 <br /> Then, everything is broken, twisted, torn,
-<br /> *Are bound, your mind and soul.*
+<br /> *Are storger bound, your mind and soul.*
 
 ---
 

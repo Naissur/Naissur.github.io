@@ -12,7 +12,7 @@ categories: articles
 
 <br /> I wondered "Why?",
 <br /> And it turned out:
-<br /> There's no deny
+<br /> You can't deny
 <br /> That everything - is nothing. Doubt.
 <br /> 
 <br /> Fine, what do others say?

@@ -29,7 +29,7 @@ categories: articles
 <br /> We live in chaos:
 <br /> It is outside and inside.
 <br /> And some of humans break; but others...
-<br /> Get better from the randomenss, and they survive.
+<br /> Get better from the randomnss, and they survive.
 <br />
 <br /> The name for it is contrary
 <br /> To being fragile: it is named

@@ -10,7 +10,6 @@ categories: articles
 
 # Connection, meaning, life, "Zen and the Art of Motorcycle Maintenance", Antifragility, controlling chaos, dramatic murder.
 
-
 <br /> I wondered "Why?",
 <br /> And it turned out:
 <br /> There's no deny
@@ -24,12 +23,12 @@ categories: articles
 <br /> "Creating" is too shallow.
 <br /> "Connecting"'s not enough.
 <br /> "Creating quality" is good, but not *too* good, though
-<br /> The answer's, also, not some "love".
+<br /> The answer's, also, not the "love".
 <br /> 
 <br /> We live in chaos:
 <br /> It is outside and inside.
 <br /> And some of humans break; but others...
-<br /> Get better from the randomnss, and they survive.
+<br /> Get better from the randomness, and they survive.
 <br />
 <br /> The name for it is contrary
 <br /> To being fragile: it is named
@@ -69,6 +68,76 @@ categories: articles
 <br /> Then, everything is broken, twisted, torn,
 <br /> *Are bound, your mind and soul.*
 
+---
+
+<br /> Russian:
+<br />
+
+
+# Величайшая нужда
+
+# Связь, смысл, жизнь, "Дзен, или искусство ухода за мотоциклом", анти-хрупкость, контроль хаоса, драматичное убийство.
+
+<br /> Задам вам вопрос: "Почему?"
+<br /> Ответ состоит в одном:
+<br /> Нет отрицания того,
+<br /> Что всё - это ничего. Сомнение.
+<br /> 
+<br /> Хорошо. Что думают остальные?
+<br /> Эйнштейн, Стив Джобс -
+<br /> Создали они себе
+<br /> Смысл всего, или нет?
+<br /> 
+<br /> "Творчество" - слишком плоско.
+<br /> "Соединение" - недостаточно.
+<br /> "Создание качества" - хорошо, но не полностью
+<br /> Любовь, конечно, тоже не весь ответ.
+<br /> 
+<br /> 
+<br /> Мы живём в хаосе:
+<br /> Внутри и снаружи.
+<br /> И некоторых это ломает, других же
+<br /> Укрепляет - они выживают.
+<br /> 
+<br /> Имя этому противоположно
+<br /> "Хрупкости": это называют
+<br /> "Анти-хрупкостью". вот мои слова,
+<br /> Которые укрощают всю строптивую жизнь:
+<br /> 
+<br /> Величайшая нужда в том, чтобы
+<br /> Контролем создавать опциональную,
+<br /> И анти-хрупкую связь
+<br /> Со всем вокруг.
+<br /> 
+<br /> 
+<br /> Связи имеет проводник.
+<br /> У писателя - книги,
+<br /> У художника - картины,
+<br /> У любовников - секс и беседы.
+<br /> 
+<br /> 
+<br /> ---
+<br /> 
+<br /> Это было сильное,
+<br /> Драматичное убийство моих мечт.
+<br /> После этого, нельзя просто идти дальше.
+<br /> После этого, когда всё настолько пошло упрощено.
+<br /> 
+<br /> Но когда мы так связаны,
+<br /> Таким путём, становлясь одним,
+<br /> Краски жизни усилены
+<br /> И сразу же обезображены, в цикле.
+<br /> 
+<br /> Все цвета мира
+<br /> Снаружи тебя и внутри. Эти слова
+<br /> Надо развеять по миру - ты молод и стар,
+<br /> И мысли - они слишком низки, твои высокие мысли.
+<br /> 
+<br /> 
+<br /> И многие станут одним, переродятся.
+<br /> Станут много больше суммы частей:
+<br /> Затем всё сломается, перекрутится и возродится. Когда
+<br /> Связаны, ставшими крепче, дух твой и тело.
 
 
 

@@ -8,7 +8,7 @@ categories: articles
 
 # The greatest need
 
-# specific connection, meaning, life, "Zen and the Art of Motorcycle Maintenance", Antifragility, controlling chaos, dramatic murder.
+# Connection, meaning, life, "Zen and the Art of Motorcycle Maintenance", Antifragility, controlling chaos, dramatic murder.
 
 
 <br /> I wondered "Why?",

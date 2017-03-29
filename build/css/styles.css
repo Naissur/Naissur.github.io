@@ -11,11 +11,17 @@
   margin: 0;
   padding: 0;
 
-  font-size: 1.0em;
+  font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   /* font-weight: 600; */
 
   box-sizing: border-box;
+}
+
+@media print {
+  * {
+    font-size: 9pt;
+  }
 }
 
 .no-margin {
@@ -185,7 +191,7 @@ img.avatar {
 .work-exp{
   text-align: left;
   padding: 8px 32px;
-  margin-bottom: 28px;
+  margin-bottom: 8px;
 }
 
 .work-exp__description {

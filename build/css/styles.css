@@ -204,7 +204,7 @@ body{
 }
 
 body.cv-body {
-  background: #ddd;
+  background: white;
 }
 
 @media print {
@@ -339,6 +339,8 @@ p{
 
   font-weight: 300;
   color: rgba(0,0,0,0.8);
+
+  border-radius: 2px;
 }
 
 .cv.page-wrapper {
